@@ -1,7 +1,7 @@
 package Client;
 
 import Model.*;
-import com.example.demo3.*;
+import com.example.demo.*;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

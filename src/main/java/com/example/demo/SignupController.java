@@ -1,4 +1,4 @@
-package com.example.demo3;
+package com.example.demo;
 
 import Client.Client;
 import javafx.collections.FXCollections;
