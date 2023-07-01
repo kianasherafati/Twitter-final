@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="parent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: #fefefe;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.MainPageController">
+   <children>
+      <ScrollPane fx:id="scrollPane" layoutY="8.0" prefHeight="393.0" prefWidth="600.0">
+         <content>
+            <VBox fx:id="timeline" prefHeight="393.0" prefWidth="583.0" spacing="1.0" style="-fx-background-color: #fefefe;" />
+         </content>
+      </ScrollPane>
+      <ImageView fx:id="profile" fitHeight="28.0" fitWidth="35.0" layoutX="36.0" layoutY="414.0" onMouseClicked="#switchToShowProfile">
+         <image>
+            <Image url="@../profile-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="search" fitHeight="34.0" fitWidth="35.0" layoutX="273.0" layoutY="411.0" onMouseClicked="#switchToSearch">
+         <image>
+            <Image url="@../search-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="home" fitHeight="42.0" fitWidth="48.0" layoutX="140.0" layoutY="405.0">
+         <image>
+            <Image url="@../home22.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="photoTweet" fitHeight="42.0" fitWidth="48.0" layoutX="392.0" layoutY="407.0">
+         <image>
+            <Image url="@../add photo 2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="48.0" layoutX="510.0" layoutY="404.0" onMouseClicked="#switchToAddTweet">
+         <image>
+            <Image url="@../tweet text2.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
